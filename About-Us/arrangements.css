@@ -1,0 +1,30 @@
+
+
+#side-nav{
+	position: relative;
+	padding-top: 70px;
+}
+
+#about-us{
+	position: relative;
+	padding-right: 20%;
+	padding-left: 20%;
+	padding-bottom: 50px;
+}
+
+#about-us-p{
+	padding-bottom: 50px;
+}
+
+#about-us-img{
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+#foot{
+	position: relative;
+	padding-left: 20%;
+	padding-right: 20%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
