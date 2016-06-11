@@ -1,0 +1,33 @@
+
+
+#slideshow{
+	position: relative;
+	padding-top: 37px;
+	height: 700px;
+	background-size: cover;
+}
+
+#about-us{
+	position: relative;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+#news{
+	position: relative;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	height: 500px;
+}
+
+#news-box{
+	position: relative;
+	height: 100%;
+}
+
+#btn-left, #btn-right{
+	position: absolute;
+	top: 50%;
+}

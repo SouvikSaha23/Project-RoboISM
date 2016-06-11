@@ -1,0 +1,20 @@
+$(document).ready(function(){
+	$(".dropdown-1").mouseenter(function(){			
+		$('.drop-1').slideDown(400);
+		$('.drop-1').css("display","block");
+		$('.drop-1').css("z-index","1");
+	});
+	$(".dropdown-1").mouseleave(function(){
+		$('.drop-1').css("display","none");
+		$('.drop-1').css("z-index","-1");			
+	});
+	$(".dropdown-2").mouseenter(function(){			
+		$('.drop-2').slideDown(1000);
+		$('.drop-2').css("display","block");
+		$('.drop-2').css("z-index","1");
+	});
+        $(".dropdown-2").mouseleave(function(){
+		$('.drop-2').css("display","none");
+		$('.drop-2').css("z-index","-1");			
+	});
+});
