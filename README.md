@@ -12,3 +12,5 @@ Changing and Developing rules --->
 5. Keep images different, do not always link them from other websites. For better result, include both local address and url. 
 6. Always try to make the page responsive. Use flexbox, grid model etc. Use bootstrap or w3css for better responsive layout.  
 
+
+Note: This repository is only for arranging frontend, application time, it will all be arranged accordingly.
