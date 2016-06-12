@@ -21,6 +21,23 @@
 	padding-top: 50px;
 }
 
+.pic-btn{
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.pic-btn a{
+	position: relative;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+.pic{
+	display: block;
+	margin: auto;
+}
+
 #foot{
 	position: relative;
 	padding-left: 20%;

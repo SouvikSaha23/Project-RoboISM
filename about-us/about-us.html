@@ -13,6 +13,8 @@
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<script src="jquery.backstretch.min.js"></script>
 		<script type="text/javascript" src="dropdown-animation.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css'>
+		<script type="text/javascript" src="pic-animation.js"></script>
 
 	</head>
 
@@ -82,46 +84,54 @@
 				- Bullshit for Testing	
 				</p>
 			</div>
+
 			<div id="about-us-img" class="w3-container">	
-				<div id="members" class="w3-container">
+				<div id="members" class="w3-container pic-btn">
 					<h5 class="w3-center">Our Members</h5>
-					<div class="w3-row-padding">
-						<a class="w3-col s6" href="#">
-							<img src="students.jpg" class="w3-left">
-							<p>Students</p>
-						</a>
-						<a class="w3-col s6" href="#">
-							<img src="alumni.jpg" class="w3-right">
-							<p>Alumni</p>
-						</a>
-						
+					<div class="w3-container w3-row-padding">
+						<div class="w3-col s6">
+							<div class="w3-container w3-left">
+								<a href="#" class="w3-center">
+									<img class="pic" src="students.JPG">
+									<p class="pic-info">Members</p>
+								</a>
+							</div>
+						</div>
+						<div class="w3-col s6">
+							<div class="w3-container w3-right">
+								<a href="#" class="w3-center">
+									<img class="pic" src="alumni.JPG">
+									<p class="pic-info">Alumni</p>
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div id="projects" class="w3-container">
+				<div id="projects" class="w3-container pic-btn">
 					<h5 class="w3-center">Our Projects</h5>
 					<div class="w3-container">
-						<a href="#">
-							<img class = "w3-center" src="projects.jpg">
-							<p>Projects</p>
+						<a href="#" class="w3-center">
+							<img class = "pic" src="projects.JPG">
+							<p class="pic-info">Projects</p>
 						</a>
 					</div>
 				</div>
-				<div id="achievements" class="w3-container">
+				<div id="achievements" class="w3-container pic-btn">
 					<h5 class="w3-center">Our Achievements</h5>
 					<div class="w3-container">
-						<a href="#">
-							<img class = "w3-center" src="trophy.jpg">
-							<p>Achievements</p>
+						<a href="#" class="w3-center">
+							<img class = "pic" src="trophy.jpg">
+							<p class="pic-info">Achievements</p>
 						</a>
 					</div>
 				</div>
-				<div id="tutorial" class="w3-container">
+				<div id="tutorial" class="w3-container pic-btn">
 					<h5 class="w3-center">Tutorials</h5>
 					<div class="w3-container">
-					<a href="#">
-						<img class = "w3-center" src="tutorial.jpg">
-						<p>Tutorials</p>
-					</a>
+						<a href="#" class="w3-center">
+							<img class = "pic" src="tutorial.jpg">
+							<p class="pic-info">Tutorials</p>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -145,14 +155,14 @@
 			<div class="w3-col s6 w3-container">
 				<div class="w3-right">
 					<h5>Find us at</h5>
-					<a href="https://www.facebook.com/roboism/"><img src="logo_fb.png"></a>
+					<a id="logo"href="https://www.facebook.com/roboism/"><img src="fb.png"></a>
 					<a href=""><img src="#"></a>
 				</div>
 			</div>
 		</footer>
 
 		<script type="text/javascript">
-			$("#about-us-p").backstretch("robotic-arm.jpg");
+			$("#about-us-p").backstretch("robotic-arm.JPG");
 		</script>
 	</body>
 

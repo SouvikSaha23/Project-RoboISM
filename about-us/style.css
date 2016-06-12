@@ -3,11 +3,48 @@
 	opacity: 0.25;
 }
 
+.pic{
+    transition: all 1s ease-out;
+}
+
+
+
+@keyframes changeopacity{
+	from{opacity: 1}
+	to{opacity: 0.2}
+}
+
+@keyframes movetext{
+	from{}
+	to{}
+}
+
+.pic:hover{
+     transform:scale(1.1);
+     animation: changeopacity 1s ease-out 1 forwards;
+}
+
+.pic:hover + pic-info{
+	transform: scale(1.25);
+	animation: movetext 1s ease-out forwards;
+}
+
 footer{
 	background-color: rgb(50, 50, 50);
 	color:white;
 }
 
 footer p{
-	font-size: 13px;
+	font-size: 16px;
+}
+
+footer p a{
+	text-decoration: none;
+}
+
+#logo img{
+	border: 3px solid white;
+	border-radius:50%;
+	height:42px;
+	width:42px;	
 }

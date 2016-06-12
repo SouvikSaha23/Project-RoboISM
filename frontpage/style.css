@@ -1,5 +1,9 @@
-#news-box{
+#news{
 	border: 2px solid black;
+}
+
+.rounds{
+	border: 1px solid grey;
 }
 
 footer{
@@ -9,4 +13,15 @@ footer{
 
 footer p{
 	font-size: 13px;
+}
+
+footer p a{
+	text-decoration: none;
+}
+
+#logo img{
+	border: 3px solid white;
+	border-radius:50%;
+	height:42px;
+	width:42px;	
 }

@@ -2,9 +2,29 @@
 
 #slideshow{
 	position: relative;
-	padding-top: 37px;
+	margin-top: 50px;
+	padding-right: 10%;
+	padding-left: 10%;
 	height: 700px;
-	background-size: cover;
+}
+
+#slides{
+	height: 100%;
+}
+
+.slide-pics{
+	display: none;
+}
+
+.arrows{
+	cursor: pointer;
+}
+
+.rounds{
+	height: 13px;
+	width: 13px;
+	padding: 0;
+	cursor: pointer;
 }
 
 #about-us{
